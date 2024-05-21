@@ -1,0 +1,218 @@
+<html>
+	<head>
+		<title>Course Syllabus</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="https://dabi.temple.edu/wp-content/uploads/2020/07/cropped-T-Logo-32x32.png" />
+		<link rel="stylesheet" href="dabi_2024_css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="dabi_2024_css/zoran_external_style.css">
+		
+		<script src="dabi_2024_js/fontawesome.js"></script>
+		<script src="dabi_2024_js/popper.js"></script>
+		<script src="dabi_2024_js/jquery.min.js"></script>
+		<script src="dabi_2024_js/bootstrap.min.js"></script>
+
+		<style>
+			/*Small Screen*/
+			@media (max-width: 1160px) {
+				.top-bar {
+					display: none;
+				}
+				.navbar-brand {
+					display: none;
+				}
+				.jazan-video {
+					display: none;
+				}
+				.map {
+					display: none;
+				}
+				.sm-divider-show {
+					display: block;
+				}
+			}
+			/*Large Screen*/
+			@media (min-width: 1160px) {
+				.bg-bar-sm {
+					display: none;
+				}
+				.login-icon-2 {
+					display: none;
+				}
+				.sm-divider-show {
+					display: none;
+				}
+			}
+
+		</style>
+		
+	</head>
+	<body>
+		<div class="panner">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<b class="panner-text">CIS 4523/5523: Knowledge Discovery and Data Mining</b>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="bg-bar-sm">
+			<b class="logo-text">Spring 2024</b>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-bar">		
+			<div class="navbar-brand">
+				<b class="logo-text">Spring 2024</b>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="mainMenu">
+				<ul class="navbar-nav mr-auto mx-auto tajawal-font">
+					<li class="px-1 nav-item">
+						<a class="py-2 nav-link" href="cis5523_full.html"><h6><b><i class="fas fa-laptop-house"></i> Home</b></h6></a>
+					</li>
+					
+					<li class="px-1 nav-item">
+						<a class="py-2 nav-link active" href="syllabus_CIS_4523_spring_2024.html"><h6><b><i class="fas fa-book-open"></i> Course Syllabus</b></h6></a>
+					</li>
+
+					<li class="px-1 nav-item">
+						<a class="py-2 nav-link" href="Software.html"><h6><b><i class="fas fa-laptop-code"></i> Software and Data</b></h6></a>
+					</li>
+
+					<li class="px-1 nav-item">
+						<a class="py-2 nav-link" href="homework5523_24.html"><h6><b><i class="fas fa-user-tie"></i> Homework Assignments</b></h6></a>
+					</li>
+					
+					<li class="px-1 nav-item">
+						<a class="py-2 nav-link" href="presentations_schedule_24.html"><h6><b><i class="fas fa-chalkboard-teacher"></i> Mini Lectures</b></h6></a>
+					</li>
+					
+					<li class="px-1 nav-item">
+						<a class="py-2 nav-link" href="project_presentation.html"><h6><b><i class="fas fa-file-powerpoint"></i> Project Presentations</b></h6></a>
+					</li>
+					
+				</ul>
+			</div>
+		</nav>
+		
+		<div class="container">
+			
+			<div class="divider"></div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="section-scroll" style="height: 1300px">
+						<h4 class="section-title"><b>Goals</b></h4>
+						<hr>
+						<div class="section-content">
+							<span>
+							The objective of knowledge discovery and data mining process is to extract 
+							nontrivial, implicit, previously unknown, and potentially useful information 
+							from massive datasets. The course is intended to serve as an introduction to the 
+							fundamental techniques required to support this process. The course is structured 
+							to provide ample opportunity for participants to learn about this research area, 
+							and scout around for promising research topics by a hands-on experience.
+							</span>
+						</div>
+						
+						<div class="divider"></div>
+						<div class="divider"></div>
+						<h4 class="section-title"><b>Prerequisites</b></h4>
+						<hr>
+						<div class="section-content">
+							<span>
+							Basic knowledge in database systems; programming skills; basic 
+							statistics, graph theory, and linear algebra.
+							</span>
+						</div>
+						
+						<div class="divider"></div>
+						<div class="divider"></div>
+						<h4 class="section-title"><b>Texts</b></h4>
+						<hr>
+						<div class="section-content">
+							<ul>
+								<li>Tan P.N., Steinbach M., Kumar V., Karpatne A.: Introduction to Data 
+								Mining, 2<sup>nd</sup> Edition, Pearson Education, 2018 ISBN: 0133128903 (required)</li>
+								<li>Aggarwal, C.: Data Mining, The Textbook: Springer, 2015, 
+								ISBN-13: 978-3319141411 (recommended)</li>
+							</ul>
+						</div>
+						
+						<div class="divider"></div>
+						<div class="divider"></div>
+						<h4 class="section-title"><b>Topics</b></h4>
+						<hr>
+						<div class="section-content">
+							<ol type="I" style="margin-top:-10px">
+								<li>An overview of data mining tasks and techniques.</li>
+								<li>Data:
+									<ol>
+										<li>data types</li>
+										<li>data quality</li>
+										<li>data preprocessing: aggregation, sampling, dimensionality reduction, feature selection</li>
+									</ol>
+								</li>
+								<li>Similarities and distances:
+									<ol>
+										<li>multidimensional data</li>
+										<li>text similarity measures</li>
+										<li>temporal similarity measures</li>
+										<li>graph similarity measures</li>
+										<li>supervised similarity functions</li>
+									</ol>
+								</li>
+								<li>Descriptive and Predictive Modeling:
+									<ol>
+										<li>model functions (cluster analysis, summarization, classification, regression, anomaly detection)</li>
+										<li>model representation (instance-based and rule-based classifiers, decision trees, probabilistic classifiers, density models, partitioning, hierarchical, density-based, grid-based and model-based clustering algorithms, frequent pattern mining).</li>
+									</ol>
+								</li>
+								<li>Advanced topics:
+									<ol>
+										<li>mining data streams</li>
+										<li>mining time series</li>
+										<li>mining spatial data</li>
+										<li>mining discrete sequences</li>
+									</ol>
+								</li>
+								<li>Reading and research projects presentations.</li>
+							</ol>
+						</div>
+						
+						<div class="divider"></div>
+						<div class="divider"></div>
+						<h4 class="section-title"><b>Grading</b></h4>
+						<hr>
+						<div class="section-content">
+							<span>
+							Homework (30%), midterm exam on March 17(20%), reading/presenting 
+							assignments (20%) and a research project report due May 2 by 5:30pm (30%).
+							</span>
+						</div>
+						
+						<div class="divider"></div>
+						<div class="divider"></div>
+						<h4 class="section-title"><b>Late Policy and Academic Honesty</b></h4>
+						<hr>
+						<div class="section-content">
+							<span>
+							An automatic extension of homework submission is acceptable with 20% penalty per 
+							day. Discussing materials with fellow students is acceptable, but programs, 
+							experiments and the reports must be done individually.
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+<!--		
+		<div class="footer bg-footer">
+			<div class="text-center">Copyright &copy; 2024, Temple University. All rights reserved.</div>
+		</div>
+-->
+	</body>
+</html>

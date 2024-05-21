@@ -1,0 +1,1254 @@
+<html>
+	<head>
+		<title>Homework Assignments</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="https://dabi.temple.edu/wp-content/uploads/2020/07/cropped-T-Logo-32x32.png" />
+		<link rel="stylesheet" href="dabi_2024_css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="dabi_2024_css/zoran_external_style.css">
+		
+		<script src="dabi_2024_js/fontawesome.js"></script>
+		<script src="dabi_2024_js/popper.js"></script>
+		<script src="dabi_2024_js/jquery.min.js"></script>
+		<script src="dabi_2024_js/bootstrap.min.js"></script>
+
+		<style>
+			/*Small Screen*/
+			@media (max-width: 1160px) {
+				.top-bar {
+					display: none;
+				}
+				.navbar-brand {
+					display: none;
+				}
+				.jazan-video {
+					display: none;
+				}
+				.map {
+					display: none;
+				}
+				.sm-divider-show {
+					display: block;
+				}
+			}
+			/*Large Screen*/
+			@media (min-width: 1160px) {
+				.bg-bar-sm {
+					display: none;
+				}
+				.login-icon-2 {
+					display: none;
+				}
+				.sm-divider-show {
+					display: none;
+				}
+			}
+
+		</style>
+		
+	</head>
+	<body style="font-size: 12pt">
+		<div class="panner">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<b class="panner-text">CIS 4523/5523: Knowledge Discovery and Data Mining</b>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="bg-bar-sm">
+			<b class="logo-text">Spring 2024</b>
+		</div>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-bar">		
+			<div class="navbar-brand">
+				<b class="logo-text">Spring 2024</b>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="mainMenu">
+				<ul class="navbar-nav mr-auto mx-auto tajawal-font">
+					<li class="px-1 nav-item">
+						<a class="py-2 nav-link" href="cis5523_full.html"><h6><b><i class="fas fa-laptop-house"></i> Home</b></h6></a>
+					</li>
+					
+					<li class="px-1 nav-item">
+						<a class="py-2 nav-link" href="syllabus_CIS_4523_spring_2024.html"><h6><b><i class="fas fa-book-open"></i> Course Syllabus</b></h6></a>
+					</li>
+
+					<li class="px-1 nav-item">
+						<a class="py-2 nav-link" href="Software.html"><h6><b><i class="fas fa-laptop-code"></i> Software and Data</b></h6></a>
+					</li>
+
+					<li class="px-1 nav-item">
+						<a class="py-2 nav-link active" href="homework5523_24.html"><h6><b><i class="fas fa-user-tie"></i> Homework Assignments</b></h6></a>
+					</li>
+					
+					<li class="px-1 nav-item">
+						<a class="py-2 nav-link" href="presentations_schedule_24.html"><h6><b><i class="fas fa-chalkboard-teacher"></i> Mini Lectures</b></h6></a>
+					</li>
+					
+					<li class="px-1 nav-item">
+						<a class="py-2 nav-link" href="project_presentation.html"><h6><b><i class="fas fa-file-powerpoint"></i> Project Presentations</b></h6></a>
+					</li>
+					
+				</ul>
+			</div>
+		</nav>
+		
+		<div class="container">
+			
+			<div class="divider"></div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="section">
+						<h4 class="section-title"><b>Homework Policies</b> (applicable for all assignments):</h4>
+						<hr>
+						<div class="section">
+							<p>	
+								<ol>
+									<li>You are required to do the homework problems in order to pass.</li>
+									<li>Understandability of the solution is as desired as correctness.</li>
+									<li>Penalty for late homework assignments submissions is 20% per day. So, do it on time.</li>
+									<li>Solutions are expected to be your own work. Group work is <b>not allowed</b> unless explicitly approved for a particular problem. If you obtained a hint with help (e.g., through library work, discussion with another person, etc.) acknowledge your source, and write up the solution on your own. Plagiarism and other anti-intellectual behavior will be dealt with severely.</li>
+								</ol>
+							</p>
+						</div>
+						
+						<ul class="nav nav-tabs" id="myTab" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link" id="hw1" data-toggle="tab" href="#homework_1" role="tab" aria-controls="homework_1" aria-selected="true"><h5><b>Homework 1</b></h5></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="hw2" data-toggle="tab" href="#homework_2" role="tab" aria-controls="homework_2" aria-selected="false"><h5><b>Homework 2</b></h5></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="hw3" data-toggle="tab" href="#homework_3" role="tab" aria-controls="homework_3" aria-selected="false"><h5><b>Homework 3</b></h5></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="hw4" data-toggle="tab" href="#homework_4" role="tab" aria-controls="homework_4" aria-selected="false"><h5><b>Homework 4</b></h5></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="hw5" data-toggle="tab" href="#homework_5" role="tab" aria-controls="homework_5" aria-selected="false"><h5><b>Homework 5</b></h5></a>
+							</li>
+							
+							<li class="nav-item">
+								<a class="nav-link" id="hw6" data-toggle="tab" href="#homework_6" role="tab" aria-controls="homework_6" aria-selected="false"><h5><b>Homework 6</b></h5></a>
+							</li>
+							
+							<li class="nav-item">
+								<a class="nav-link" id="hw7" data-toggle="tab" href="#homework_7" role="tab" aria-controls="homework_7" aria-selected="false"><h5><b>Homework 7</b></h5></a>
+							</li>
+							
+							<li class="nav-item">
+								<a class="nav-link active" id="hw8" data-toggle="tab" href="#homework_8" role="tab" aria-controls="homework_8" aria-selected="false"><h5><b>Homework 8</b></h5></a>
+							</li>
+							
+						</ul>
+<!--Homework 1-->
+						<div class="tab-content text-center py-3" id="myTabContent">
+							<div class="tab-pane fade" id="homework_1" role="tabpanel" aria-labelledby="hw1">
+								<div class="text-left mx-2 my-3">
+									<div class="section">
+										<center><h5 class="section-title"><b>Assignment 1</b></h5></center>
+										<span><b>Out: January 18</b></span><br>
+										<span><b>Due: February 01 by 5:30pm on Canvas</b></span><br>
+										<span>*Please write your name and TUID at the top of your <b>CANVAS</b> submission.</span>
+										<p></p>
+									</div>
+									<p>
+										<h6><b><u>PROBLEM 1:</u></b></h6>  
+										<span>Solve nine tasks described below and submit to Canvas a report as a .pdf file. For each task includes code, its output, and comments/description.</span>
+									</p>
+									<p>
+										The goal is to provide better data about the top 50 solar flares recorded so
+										far than those shown by <a href="https://www.spaceweatherlive.com/en/solar-activity/top-50-solar-flares"
+										target="_blank">SpaceWeatherLive.com</a>. Use <a href="http://cdaw.gsfc.nasa.gov/CME_list/radio/waves_type2.html" target="_blank">this
+										messy NASA data</a> to add more features for the top 50 solar flares. You need
+										to scrape this information directly from each HTML page. You can read here more
+										about <a href="https://en.wikipedia.org/wiki/Solar_flare" target="_blank">Solar
+										Flares</a>, <a href="https://www.spaceweatherlive.com/en/help/what-is-a-coronal-mass-ejection-cme"
+										target="_blank">coronal mass ejections,</a>&nbsp;and <a
+										href="http://spaceweather.com/glossary/flareclasses.html" target="_blank">the
+										solar flare alphabet soup.</a>
+									</p>
+									<p>
+										Use <strong>any programming language</strong> of your choice. Python is 
+										recommended (and used for further explanation), but this can be done in R,
+										Java, and other languages as well. A tutorial on Python is available at&nbsp;
+										<a href="http://www.learnpython.org/" target="_blank" 
+										data-saferedirecturl="https://www.google.com/url?q=http://www.learnpython.org&amp;source=gmail&amp;ust=1642031753097000&amp;usg=AOvVaw2CH6O_cwULDyJ4csWIslbh">www.learnpython.org.</a>
+									</p>
+									<p>
+										<span><b><u>PART 1:</u> Data scraping and preparation</b></span>
+									</p>
+									<p>
+										<span><b><u>Task 1:</u> Scrape your competitor's data (10 pts)</b></span><br>
+										<span>Scrape data for the top 50 solar flares shown in 
+										<a href="https://www.spaceweatherlive.com/en/solar-activity/top-50-solar-flares" 
+										target="_blank">SpaceWeatherLive.com</a>.
+										</span><br>
+									
+									<span>Steps to do this are (if you are using python):</span>
+										<ol>
+											<li><em>pip install</em> or <em>conda install</em> the following Python 
+											packages: <em>beautifulsoup4, requests, pandas, NumPy, matplotlib&nbsp;</em>
+											(for visualization)</li>
+											<li>Use <em>requests</em>&nbsp;to get page content (as in, HTTP GET)</li>
+											<li>Extract the text from the page</li>
+											<li>Use <em>BeautifulSoup</em> to read and parse the data, either as html
+											or <em>lxml</em></li>
+											<li>Use <em>prettify( )</em> to view the content and find the appropriate 
+											table</li>
+											<li>Use <em>find( )</em> to save the aforementioned table as a variable</li>
+											<li>Use pandas to read in the HTML file. HINT make-sure the above data 
+											is properly typecast.</li>
+											<li>Set reasonable names for the table columns, e.g., rank,
+											<em>x_classification</em>, date, region, <em>start_time</em>, 
+											<em>maximum_time</em>, <em>end_time</em>, movie. <em>Pandas.columns</em>
+											&nbsp;makes this very simple.
+											</li>
+										</ol>
+																		
+									<p>The result should be a data frame, with the first few rows as:</p>
+
+									<p>Dimension: 50 × 8</p>
+
+									<p><span style='font-size:10.0pt;font-family:"Courier New"'>
+									rank <span>x_class</span> date region <span>start_time</span> <span>max_time</span>
+									<span>end_time</span> movie<br>
+									1 1 X28.0 2003/11/04 0486 19:29 19:53 20:06 <span>MovieView</span> archive<br>
+									2 2 X20 2001/04/02 9393 21:32 21:51 22:03 <span>MovieView</span> archive<br>
+									3 3 X17.2 2003/10/28 0486 09:51 11:10 11:24 <span>MovieView</span> archive<br>
+									4 4 X17.0 2005/09/07 0808 17:17 17:40 18:03 <span>MovieView</span> archive<br>
+									5 5 X14.4 2001/04/15 9415 13:19 13:50 13:55 <span>MovieView</span> archive<br>
+									6 6 X10.0 2003/10/29 0486 20:37 20:49 21:01 <span>MovieView</span> archive<br>
+									7 7 X9.4 1997/11/06 - 11:49 11:55 12:01 <span>MovieView</span> archive<br>
+									8 8 X9.0 2006/12/05 0930 10:18 10:35 10:45 <span>MovieView</span> archive<br>
+									9 9 X8.3 2003/11/02 0486 17:03 17:25 17:39 <span>MovieView</span> archive<br>
+									10 10 X7.1 2005/01/20 0720 06:36 07:01 07:26 <span>MovieView</span> archive<br>
+									... with 40 more rows</span>
+									</p>
+									</p>
+									
+									<p><span><b><u>Task 2:</u> Tidy the top 50 solar flare data (10 pts)</b></span>
+										<p>Make sure this table is usable using pandas:
+											<ol>
+												<li>Drop the last column of the table, since we are not going to use it moving forward.</li>
+												<li>Use datetime import to combine the date and each of the three time columns into three datetime columns. You will see why this is useful later on. iterrows() should prove useful here.</li>
+												<li>Update the values in the dataframe as you do this. Set_value should prove useful.</li>
+												<li>Set regions coded as - as missing (NaN). You can use dataframe.replace() here.</li>
+											</ol>
+										</p>
+										<p>The result of this step should be a data frame with the first few rows as:</p>
+										<p>A dataframe: 50 × 6</p>
+										<p>
+											rank <span>x_class</span> <span>start_datetime</span>
+											<span>max_datetime</span> <span >end_datetime</span>
+											region<br>
+
+											<span style='font-size:10.0pt;font-family:"Courier New"'>
+											1 1   X28.0 2003-11-04 19:29:00 2003-11-04 19:53:00 2003-11-04 20:06:00 0486<br>
+											2 2   X20   2001-04-02 21:32:00 2001-04-02 21:51:00 2001-04-02 22:03:00 9393<br>
+											3 3   X17.2 2003-10-28 09:51:00 2003-10-28 11:10:00 2003-10-28 11:24:00 0486<br>
+											4 4   X17.0 2005-09-07 17:17:00 2005-09-07 17:40:00 2005-09-07 18:03:00 0808<br>
+											5 5   X14.4 2001-04-15 13:19:00 2001-04-15 13:50:00 2001-04-15 13:55:00 9415<br>
+											6 6   X10.0 2003-10-29 20:37:00 2003-10-29 20:49:00 2003-10-29 21:01:00 0486<br>
+											7 7   X9.4  1997-11-06 11:49:00 1997-11-06 11:55:00 1997-11-06 12:01:00 &lt;NA&gt;<br>
+											8 8   X9.0  2006-12-05 10:18:00 2006-12-05 10:35:00 2006-12-05 10:45:00 0930<br>
+											9 9   X8.3  2003-11-02 17:03:00 2003-11-02 17:25:00 2003-11-02 17:39:00 0486<br>
+											10 10 X7.1  2005-01-20 06:36:00 2005-01-20 07:01:00 2005-01-20 07:26:00 0720<br>
+											... with 40 more rows</span>
+										</p>
+									</p>
+									
+									<p><span><b><u>Task 3:</u> Scrape the NASA data (15 pts)</b></span>
+										<p>Next, you need to scrape <a href="http://cdaw.gsfc.nasa.gov/CME_list/radio/waves_type2.html" 
+										target="_blank">NASA data</a> to get additional features about these solar 
+										flares. This table format is described <a href="http://cdaw.gsfc.nasa.gov/CME_list/radio/waves_type2_description.htm"
+										target="_blank">here.</a>
+										</p>
+
+										<p>Once scraped, do the next steps:
+											<ol>
+												<li>Use BeautifulSoup functions (e.g., find, findAll) and string 
+												functions (e.g., split and built-in slicing capabilities) to obtain each 
+												row of data as a long string.</li>
+												<li>Use the split function to separate each line of text into a data row.</li>
+												<li>Create a DataFrame with the data from the table.</li>
+												<li>Choose appropriate names for columns.</li>
+											</ol>
+										</p>
+										<p>The result of this step should be <span class=GramE>similar to</span>:</p>
+										<p>Dimension: 482 × 14</p>
+										<p style='font-size:10.0pt;font-family:"Courier New"'>
+										<span>start_date</span> <span>start_time</span> <span>end_date</span> 
+										<span>end_time</span> <span>start_frequency</span> <span>end_frequency</span> 
+										<span>flare_location</span> <span>flare_region</span><br>
+										* &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;
+										&lt;chr&gt; &lt;chr&gt;<br>
+										1  1997/04/01 14:00 04/01 14:15 8000  4000 S25E16 8026<br>
+										2  1997/04/07 14:30 04/07 17:30 11000 1000 S28E19 8027<br>
+										3  1997/05/12 05:15 05/14 16:00 12000 80   N21W08 8038<br>
+										4  1997/05/21 20:20 05/21 22:00 5000  500  N05W12 8040<br>
+										5  1997/09/23 21:53 09/23 22:16 6000  2000 S29E25 8088<br>
+										6  1997/11/03 05:15 11/03 12:00 14000 250  S20W13 8100<br>
+										7  1997/11/03 10:30 11/03 11:30 14000 5000 S16W21 8100<br>
+										8  1997/11/04 06:00 11/05 04:30 14000 100  S14W33 8100<br>
+										9  1997/11/06 12:20 11/07 08:30 14000 100  S18W63 8100<br>
+										10 1997/11/27 13:30 11/27 14:00 14000 7000 N17E63 8113<br>
+										... with 472 more rows, and 6 more variables: <span>flare_classification</span>
+										&lt;chr&gt;, <span>cme_date</span> &lt;chr&gt;, <span>cme_time</span> 
+										&lt;chr&gt;, <span>cme_angle</span> &lt;chr&gt;, <span>cme_width</span> 
+										&lt;chr&gt;, <span>cme_speed</span> &lt;chr&gt;</span></p>
+									</p>
+									
+									<p><span><b><u>Task 4:</u>  Tidy the NASA table (15 pts)</b></span>
+										<p>Here we will code missing observations properly, 
+										recode columns that correspond to more than one piece of information, and treat 
+										dates and times appropriately.
+											<ol>
+												<li>Recode any missing entries as <em>NaN</em>. Refer to the 
+												<a href="http://cdaw.gsfc.nasa.gov/CME_list/radio/waves_type2_description.htm" 
+												target="_blank">data description</a> to see how missing entries are 
+												encoded in each column. Be sure to look carefully at the actual data, as
+												the <em>nasa</em> descriptions might not be completely accurate.</li>
+												<li>The CPA column (<em>cme_angle</em>) contains angles in degrees 
+												for most rows, except for halo flares, which are coded as Halo. 
+												Create a new column that indicates if a row corresponds to a halo flare 
+												or not, and then replace Halo entries in the <em>cme_angle</em> 
+												column with <em>NaN</em>.</li>
+												<li>The width column indicates if the given value is a lower bound. 
+												Create a new column that indicates if width is given as a lower 
+												<em>bound</em>, and remove any non-numeric part of the width column.</li>
+												<li>Combine date and time columns for start, end and <em>cme</em> so 
+												they can be encoded as datetime objects.</li>
+											</ol>
+											
+											<p>The output of this step should be similar to this:</p>
+											<p style='font-size:10.0pt;font-family:"Courier New"'>
+											<span>start_datetime</span> <span>end_datetime</span> <span>start_frequency</span> 
+											<span>end_frequency</span> <span>flare_location</span> <span>flare_region</span>
+											<span>importance</span> <span>cme_datetime</span> <span>cpa</span>
+											<span>width speed plot</span> <span>is_halo</span> <span>width_lower_bound</span><br>
+											0 1997-04-01 14:00:00 1997-04-01 14:15:00 8000 4000 S25E16 8026 M1.3 1997-04-01
+											15:18:00 74 79 312 PHTX False <em>False</em><br>
+											1 1997-04-07 14:30:00 1997-04-07 17:30:00 11000 1000 S28E19 8027 C6.8
+											1997-04-07 14:27:00 <em>NaN</em> 360 878 PHTX True False<br>
+											2 1997-05-12 05:15:00 1997-05-14 16:00:00 12000 80 N21W08 8038 C1.3 1997-05-12
+											05:30:00 <em>NaN</em> 360 464 PHTX True False<br>
+											3 1997-05-21 20:20:00 1997-05-21 22:00:00 5000 500 N05W12 8040 M1.3 1997-05-21
+											21:00:00 263 165 296 PHTX False <em>False</em><br>
+											4 1997-09-23 21:53:00 1997-09-23 22:16:00 6000 2000 S29E25 8088 C1.4 1997-09-23
+											22:02:00 133 155 712 PHTX False <em>False</em><br>
+											5 1997-11-03 05:15:00 1997-11-03 12:00:00 14000 250 S20W13 8100 C8.6 1997-11-03
+											05:28:00 240 109 227 PHTX False <em>False</em>
+											</p>
+										</p>
+									</p>
+									
+									<p><b><u>PART 2:</u> Analysis</b></p>
+									<p>Now that you have data from both sites, let’s start some analysis.</p>
+
+									<p><b><u>Task 5:</u> Replication (10 pts)</b></p>
+									<p>
+										Replicate as many as possible of the top 50 solar flare table in SpaceWeatherLive.com 
+										using the data obtained from NASA. If you get the top 50 solar flares from the NASA 
+										table based on their classification (e.g., X28 is the highest), do you get data for 
+										the same solar flare events? Include code used to get the top 50 solar flares from 
+										the NASA table (be careful when ordering by classification). Write a sentence or 
+										two discussing how well you can replicate the SpaceWeatherLive data from the NASA 
+										data.
+									</p>
+
+									<p><b><u>Task 6: Integration (15 pts)</u></b></p>
+									<p>Write a function that finds the best matching row in the 
+									NASA data for each of the top 50 solar flares in the SpaceWeatherLive data. Here, 
+									you have to decide for yourself how you determine what is the best matching entry in 
+									the NASA data for each of the top 50 solar flares. In your submission, include an 
+									explanation of how you are defining best matching rows across the two datasets in 
+									addition to the code used to find the best matches. Finally, use your function to 
+									add a new column to the NASA dataset indicating its rank according to 
+									SpaceWeatherLive, if it appears in that dataset.
+									</p>
+
+									<p><b><u>Task 7:</u> Attributes visualization (7 pts)</b></p>
+									<p>Plot attributes in the NASA dataset (e.g., starting or 
+									ending frequenciues, flare height or width) over time. Use graphical elements 
+									(e.g., text or points) to indicate flares in the top 50 flares.
+									</p>
+									
+									<p><b><u>Task 8:</u> Attributes comparison (8 pts)</b></p>
+									<p>Do flares in the top 50 tend to have Halo CMEs? You can 
+									make a barplot that compares the number (or proportion) of Halo CMEs in the top 50 
+									flares vs. the dataset as a whole.
+									</p>
+									<p><b><u>Task 9:</u> Events distribution (10 pts)</b></p>
+									<p>Do strong flares cluster in time? Plot the number of 
+									flares per month over time, add a graphical element to indicate (e.g., text or points) 
+									to indicate the number of strong flares (in the top 50) to see if they cluster.
+									</p>
+									
+									<h3><b>Submission</b></h3>
+									<p>
+										Prepare a .pdf file that includes code, its output, and comments/description for 
+										each part and submit to Canvas. Comments and descriptions should be up to 1 
+										sentence. Make sure to name your file in format <i>Firstname_Lastname.pdf</i>.
+									</p>
+								</div>
+							</div>
+<!--END OF HOMEWORK 1-->
+<!--Homework 2-->
+							<div class="tab-pane fade" id="homework_2" role="tabpanel" aria-labelledby="hw2">
+								<div class="text-left mx-2 my-3">
+									<div class="section">
+										<center><h5 class="section-title"><b>Assignment 2</b></h5></center>
+										<span><b>Out: February 01</b></span><br>
+										<span><b>Due: February 08 by 5:30pm on Canvas</b></span><br>
+										<span>* Submit a .pdf file that includes code, its output, and comments/description 
+										for each problem and submit to Canvas. Comments and descriptions should be up to 1 
+										sentence. Make sure to name your file in format <i>Firstname_Lastname.pdf</i>.</span><br>
+									</div>
+									<p>
+										<h6><b><u>Problem 1:</u> (10 points)</b></h6>  
+										<span>
+										You are given a set of m objects that is divided into K groups, where the i-th 
+										group is of size <span>m<sub>i</sub></span>.If the goal is to obtain a sample 
+										of size n &lt; <span>m ,</span> what is the difference between the following two 
+										sampling schemes? (Assume sampling with replacement.)
+										<ol type="a">
+											<li>We randomly select n * m<sub>i</sub> /m elements from each group.</li>
+											<li>We randomly select n elements from the data set, without regard for the group to which an object belongs.</li>
+										</ol>
+									</p>
+									
+									<p>
+										<h6><b><u>Problem 2:</u> (10 points)</b></h6>  
+										<span>
+										Download the image <a href="hw2_22_data/hw2_2022_problem4_Face.pgm">
+										hw2_2022_problem4_Face.pgm</a> from the class homework data folder. Find a PCA 
+										package and use it to compute eigenvectors and eigenvalues for this image.
+										<ol type="a">
+											<li>(5 points) Compute 2, 5, and 10 principal components and show original and the resulting images.</li>
+											<li>(5 points) What is the minimal number of principal components needed to retain 80% of data variance?</li>
+										</ol>
+									</p>
+									
+									<p>
+										<h6><b><u>Problem 3:</u> (40 points)</b></h6>  
+										<span>
+										Download Heart Disease dataset from <a href="http://archive.ics.uci.edu/ml/datasets/Heart+Disease">
+										http://archive.ics.uci.edu/ml/datasets/Heart+Disease</a>. This dataset contains 
+										patient information from Cleveland hospital where each row represents a patient. 
+										Labels are the test results of the presence of the disease where "0" means no 
+										presence for heart disease and 1-4 represent the level of the disease. The 
+										dataset contains some missing values, and these values are denoted as "?". There 
+										are 303 patients in the original dataset and 75 features. The processed version 
+										of the dataset has the following attributes (which will be used in this assignment):
+										</span>
+										<ul>
+											<li>age: age in years</li>
+											<li>sex:  sex (1 = male; 0 = female)</li>
+											<li>cp: chest pain type:
+												<ul>
+													<li>value 1: typical angina</li>
+													<li>value 2: atypical angina</li>
+													<li>value 3: non-anginal pain</li>
+													<li>value 4: asymptomatic</li>
+												</ul>
+											</li>
+											<li>trestbps resting blood pressure (in mm Hg on admission to the hospital)</li>
+											<li>chol: serum cholestoral in mg/dl</li>
+											<li>fbs: (fasting blood sugar &gt; 120 mg/dl) (1 = true; 0 = false)</li>
+											<li>restecg: resting electrocardiographic results:
+												<ul>
+													<li>value 0: normal</li>
+													<li>value 1: having ST-T wave abnormality (T wave inversions and/or STelevation or depression of &gt; 0.05 mV)</li>
+													<li>value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria</li>
+												</ul>
+											</li>
+											<li>thalach: maximum heart rate achieved</li>
+											<li>exang exercise induced angina (1 = yes; 0 = no)</li>
+											<li>oldpeak: ST depression induced by exercise relative to rest</li>
+											<li>slope: the slope of the peak exercise ST segment:
+												<ul>
+													<li>value 1: upsloping</li>
+													<li>value 2: flat</li>
+													<li>value 3: downsloping</li>
+												</ul>
+											</li>
+											<li>ca: number of major vessels (0-3) colored by flourosopy</li>
+											<li>thal: 3 = normal; 6 = fixed defect; 7 = reversable defect</li>
+											<li>num: Label 0 - 4</li>
+										</ul>
+										<p>
+											Answer the following questions using one of the following programming 
+											languages <b>Python, R, or Java (you cannot use excel or any equivalent 
+											software)</b>:
+											<ol type="a">
+												<li>(5 points) The associated task with this dataset is multiclass classification. Change the problem to binary classification and compute the proportion of each class in the binary case? Is this a balanced dataset?</li>
+												<li>(5 points) Remove all patients that have any missing values in their records, how many patients do you have now?</li>
+												<li>(5 points) Now, impute missing values by mean values of corresponding attributes. Report how this imputation affected the overall distribution of corresponding attributes?</li>
+												<li>(5 points) Draw a scatter plot and explain the relationship between chest pain type and age?</li>
+												<li>(5 points) How sex affects having or not having a heart disease? Draw a box plot and explain.</li>
+												<li>Generate 6 random samples (without replacement) of size 50 and answer the following:
+													<ol type="i">
+														<li>(5 points) What the proportion of each class in each sample? Is each sample a balanced dataset?</li>
+														<li>(5 points) How sex affects having or not having a heart disease in each sample? Draw a box plot.</li>
+													</ol>
+												</li>
+												<li>(5 points) Compare results from e with results from f.ii</li>
+											</ol>
+										</p>
+									</p>
+									
+									<p>
+										<h6><b><u>Problem 4:</u> (40 points)</b></h6>  
+										<span>
+											The decision-makers at GymX would like to improve their services using data 
+											mining and machine learning techniques to better understand their customers. 
+											They have a large database that contains many fields such as customer_id, 
+											customer_name, age, sex, height, weight, membership_type, diet_restrictions, 
+											and more. The problem is that the database has many missing data, because 
+											most customer do not fill all necessary fields when they join the gym. 
+											This problem will affect their customer analysis. Help GymX to solve their 
+											problem. Download <a href="hw2_22_data/hw2_2024_problem4_GymX.xlsx">
+											hw2_2024_problem4_GymX.xlsx</a> dataset from the class homework data folder. 
+											The dataset contains the following attributes:
+										</span>
+										<ul style="padding-left: 60px">
+											<li>Customer ID</li>
+											<li>Customer Name</li>
+											<li>Age</li>
+											<li>Sex (male = 1, female = 0)</li>
+											<li>Height in feet</li>
+											<li>Weight in pounds</li>
+											<li>Membership type (adult, youth, or kids)</li>
+										</ul>
+											
+										<ol type="a">
+											<li>(10 points) Report the number of missing values in each feature.</li>
+											<li>(10 points) Describe a naive solution for missing values and use it to solve the missing data problem. What are the advantages/disadvantages of this solution?</li>
+											<li>(10 points) Propose a better solution and use it to solve the missing data problem.</li>
+											<li>(10 points) Compare results of the naïve handling of missing data vs your better solutions based on:
+												<ol type="i">
+													<li>(5 points) Plot a histogram of weight for all customers and report mean and standard deviation</li>
+													<li>(5 points) Create a bar plot that shows the number of customers from each sex from each membership type.</li>
+												</ol>
+											</li>
+										</ol>
+									</p>
+								</div>
+							</div>
+<!--END OF HOMEWORK 2-->
+<!--Homework 3-->
+							<div class="tab-pane fade" id="homework_3" role="tabpanel" aria-labelledby="hw3">
+								<div class="text-left mx-2 my-3">
+									<div class="section">
+										<center><h5 class="section-title"><b>Assignment 3</b></h5></center>
+										<span><b>Out: February 8</b></span><br>
+										<span><b>Due: February 15 by 5:30pm on Canvas</b></span><br>
+										<span>*Please write your name and TUID at the top of your <b>CANVAS</b> submission</span><br>
+										<span>Number of problems/points: Eight problems for total of 100 points</span>
+									</div>
+									<p>
+										<h6><b><u>Problem 1:</u> (10 points)</b></h6>  
+										<span>
+											<span>The following algorithm aims to find the K nearest neighbors of a data object:</span><br>
+											<i><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											1: for i = 1 to number of data objects do</span><br>
+											<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											2: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Find the distances of the i-th object to all other objects.</span><br>
+											<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											3: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sort these distances in decreasing order.</span><br>
+											<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Keep track of which object is associated with each distance.)</span><br>
+											<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											4: return the objects associated with the first K distances of the sorted 
+											list</span><br>
+											<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											5: end for</span></i>
+										</span><br>
+										<span><b>(a) (5 points)</b> Describe the potential problems with this algorithm if there are duplicate objects in the data set.</span><br>
+										<span><b>(b) (5 points)</b> How would you fix this problem?</span>
+									</p>
+									
+									<p>
+										<h6><b><u>Problem 2:</u> (20 points)</b></p>
+										<span>
+											<span>Compute the cosine measure using the frequencies between the following 
+											two sentences:</span><br>
+											<span><b>(a)</b> "The sly fox jumped over the lazy dog."</span><br>
+											<span><b>(b)</b> "The dog jumped at the intruder."</span>
+										</span>
+									</p>
+									
+									<p>
+										<h6><b><u>Problem 3:</u> (10 points)</b></h6>
+										<span>Transform correlation to a similarity measure with 
+										[0,1] range that could be used for clustering time series.</span>
+									</p>
+									
+									<p>
+										<h6><b><u>Problem 4:</u> (10 points)</b></h6>
+										<span>Transform correlation to a similarity measure with 
+										[0,1] range that could be used for predicting the behavior of one time series 
+										given another.</span>
+									</p>
+									
+									<p>
+										<h6><b><u>Problem 5:</u> (20 points)</b></h6>
+										<span>This exercise compares and contrasts some 
+										similarity and distance measures.</span>
+										<ol type="a">
+										<li><b>(10 points)</b> For binary data, the L1 
+										distance corresponds to the Hamming distance; that is, the number of bits that 
+										are different between two binary vectors. The Jaccard similarity is a measure of 
+										the similarity between two binary vectors. Suppose that you are comparing how 
+										similar two organisms of different species are in terms of the number of genes 
+										they share. Describe which measure, Hamming or Jaccard, would be more 
+										appropriate for comparing the genetic makeup of two organisms. Explain. 
+										(Assume that each animal is represented as a binary vector, where each attribute 
+										is 1 if a particular gene is present in the organism and 0 otherwise.)</li><br>
+										<li><b>(10 points)</b> If you wanted to compare the 
+										genetic makeup of two organisms of the same species, e.g., two human beings, 
+										would you use the Hamming distance, the Jaccard coefficient, or a different 
+										measure of similarity or distance? Explain. (Note that two human beings 
+										share > 99.9% of the same genes.)</li>
+										</ol>
+									</p>
+									
+									<p>
+										<h6><b><u>Problem 6:</u> (10 points)</b></h6>
+										<span>Donor data consists of 11 records in the following 
+										format: Name Age Salary Donor(Y/N). Donor training dataset:<br>
+										<table width="30%">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Age</th>
+													<th>Salary</th>
+													<th>Donor(Y/N)</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr><td>Nancy</td><td>21</td><td>37,000</td><td>N</td></tr>
+												<tr><td>Jim</td><td>27</td><td>41,000</td><td>N</td></tr>
+												<tr><td>Allen</td><td>43</td><td>61,000</td><td>Y</td></tr>
+												<tr><td>Jane</td><td>38</td><td>55,000</td><td>N</td></tr>
+												<tr><td>Steve</td><td>44</td><td>30,000</td><td>N</td></tr>
+												<tr><td>Peter</td><td>51</td><td>56,000</td><td>Y</td></tr>
+												<tr><td>Sayani</td><td>53</td><td>70,000</td><td>Y</td></tr>
+												<tr><td>Lata</td><td>56</td><td>74,000</td><td>Y</td></tr>
+												<tr><td>Mary</td><td>59</td><td>25,000</td><td>N</td></tr>
+												<tr><td>Victor</td><td>61</td><td>68,000</td><td>Y</td></tr>
+												<tr><td>Dale</td><td>63</td><td>51,000</td><td>Y</td></tr>
+											</tbody>
+										</table>
+										Compute the Gini index for the entire Donor data set, with respect to the two 
+										classes. Compute the Gini index for the portion of the data set with age at 
+										least 50.</span>
+									</p>
+									
+									<p>
+										<h6><b><u>Problem 7:</u> (10 points)</b></h6>
+										<span>Repeat the computation of the previous exercise 
+										with the use of the entropy criterion. Compute the entropy for the portion of 
+										the data set with age greater than 50.</span>
+									</p>
+									
+									<p>
+										<h6><b><u>Problem 8:</u> (10 points)</b></h6>
+										<span>What is the best classification accuracy that can 
+										be obtained on Donor dataset with a decision tree of depth 2, where each test 
+										results in a binary split?</span>
+									</p>
+								</div>
+							</div>
+<!--END OF HOMEWORK 3-->
+<!--Homework 4-->
+							<div class="tab-pane fade" id="homework_4" role="tabpanel" aria-labelledby="hw4">
+								<div class="text-left mx-2 my-3">
+									<div class="section">
+										<center><h5 class="section-title"><b>Homework 4</b></h5></center>
+										<span><b>Out: February 15</b></span><br>
+										<span><b>Due: February 22 by 5:00pm on Canvas</b></span><br>
+										<span>*Please write your name and TUID at the top of your <b>CANVAS</b> submission.</span><br>
+										<span>Number of problems/points: Four problems for total of 100 points</span>
+									</div>
+									<p>
+										<h6><b><u>Problem 1:</u> (15 points)</b></h6>  
+										<span>In reservoir sampling with reservoir of size 
+										<i>k</i> the <i>n-th</i> incoming stream data point is insert into the reservoir 
+										with probability <i>k/n</i> and one of the old k data points is removed from the 
+										reservoir at random to make room for the newly arriving point. After <i>n</i> 
+										stream points have arrived, prove that probability of any point being included 
+										in the reservoir is <i>k/n.</i></span>
+									</p>
+									
+									<p>
+										<h6><b><u>Problem 2:</u> (15 points)</b></h6>
+										<span>Show that the entropy of a node in a decision tree 
+										never increases after splitting it into smaller successor nodes.</span>
+									</p>
+									
+									<p>
+										<h6><b><u>Problem 3:</u> (60 points)</b></h6>
+										<ol type="a">
+											<li>Develop a decision tree classification software on your own in Python, 
+											R, or Java and apply it to develop a classification model for Donor dataset 
+											from <a href="hw3_24.html">Homework 3</a>. Since this dataset is small, apply leave-one-out training 
+											and testing framework and report your findings.</li>
+											<li>Now apply this classifier to solve the Mushroom problem defined at 
+											<a href="https://www.kaggle.com/uciml/mushroom-classification">https://www.kaggle.com/uciml/mushroom-classification</a>
+											<br>Evaluate results using 10-fold cross validation and report your findings.</li>
+											<li>Compare test set accuracy when training a mushroom classifier using 500 
+											vs. 5,000 training examples.</li>
+											<li>Report accuracy on training and test data when using a decision tree 
+											that has 10 vs 30 leaves.</li>
+											<li>Report attribute tests used in the decision tree with 10 leaves.</li>
+											<li>For a decision tree with 10 leaves report the number of positive and 
+											negative training examples at each internal node and at leaves.</li>
+										</ol>
+									</p>
+									
+									<p>
+										<h6><b><u>Problem 4:</u> (10 points)</b></h6>
+										<span>Discuss the advantages and disadvantages of a 
+										nearest neighbor classifier, over a decision tree.</span>
+									</p>
+								</div>
+							</div>
+<!--END OF HOMEWORK 4-->
+<!--Homework 5-->
+							<div class="tab-pane fade" id="homework_5" role="tabpanel" aria-labelledby="hw5">
+								<div class="text-left mx-2 my-3">
+									<div class="section">
+										<center><h4 class="section-title"><b>Assignment 5</b></h4></center>
+										<span><b>Out: February 22</b></span><br>
+										<span><b>Due: February 29 by 5:00pm on Canvas</b></span><br>
+										<span>*Please write your name and TUID at the top of your <b>CANVAS</b> submission.</span><br>
+										<span>Number of problems/points: Four problems for total of 100 points</span>
+									</div>
+									<p>
+										<h6><b><u>Problem 1:</u> (30 points)</b></h6>  
+										<span>Download Census Income data set from UCI repository 
+										- link is <a href="https://archive.ics.uci.edu/ml/datasets/census+income">
+										https://archive.ics.uci.edu/ml/datasets/census+income</a><br>
+										Use training data do develop a model aimed to determine whether a person makes 
+										over 50K a year. <br>
+										Solve this problem using k-nearest neighbors’ method with k=3 
+										and k=9 and report F1 score on test data.</span>
+									</p>
+									
+									<p>
+										<h6><b><u>Problem 2:</u> (30 points)</b></h6>
+										<span>Solve this problem using a using feed-forward neural network and report ROC on test data.</span>
+									</p>
+									
+									<p>
+										<h6><b><u>Problem 3:</u> (20 points)</b></h6>
+										<span>
+											Consider a data set containing four points located at the corners of the square. The two points on one diagonal belong to one class, and the two points on the other diagonal belong to the other class. Is this data set linearly separable? Provide a proof.
+										</span>
+									</p>
+									
+									<p>
+										<h6><b><u>Problem 4:</u> (20 points)</b></h6>
+										<ol type="a">
+											<li class="py-2">Suppose the fraction of undergraduate students who smoke is 15% and the fraction of graduate students who smoke is 23%. If one-fifth of the college students are graduate students and the rest are undergraduates, what is the probability that a student who smokes is a graduate student?</li>
+											<li class="py-2">Given the information in part (a), is a randomly chosen college student more likely to be a graduate or undergraduate student?</li>
+											<li class="py-2">Repeat part (b) assuming that the student is a smoker.</li>
+											<li class="py-2">Suppose 30% of the graduate students live in a dorm but only 10% of the undergraduate students live in a dorm. If a student smokes and lives in the dorm, is he or she more likely to be a graduate or undergraduate student? You can assume independence between students who live in a dorm and those who smoke.</li>
+										</ol>
+									</p>
+								</div>
+							</div>
+<!--END OF HOMEWORK 5-->
+<!--Homework 6-->
+							<div class="tab-pane fade" id="homework_6" role="tabpanel" aria-labelledby="hw6">
+								<div class="text-left mx-2 my-3">
+									<div class="section">
+										<center><h4 class="section-title"><b>Assignment 6</b></h4></center>
+										<span><b>Out: February 29</b></span><br>
+										<span><b>Due: MONDAY March 11 by noon on Canvas</b></span><br>
+										<span>*Please write your name and TUID at the top of your <b>CANVAS</b> submission.</span><br>
+										<span>Number of problems/points: One problem for a total of 50 points.</span>
+									</div>
+									<p>
+										<h6><b><u>Problem 1:</u> (50 points)</b></h6>
+										<span>
+											Propose a <b>ranked</b> list of <b>FIVE</b> Knowledge Discovery and Data Mining topics of which you 
+											would possibly learn one on your own and present as a mini-lecture in class. For each 
+											of 5 selected topics list references that you will use to prepare a mini-lecture. 
+											Mini-lecture topics and the presentation day will be assigned by considering your 
+											preferences, but if multiple people rank the same topic as their preference, this topic
+											will be assigned to one who provides the most convincing references which will be used 
+											to prepare the presentation.
+										</span>
+									</p>
+									
+									<p>
+										Mini lectures will be presented on March 28, April 4, and April 11. The order of presentations will be determined based on topics and will be announced on March 14.
+									</p>
+									
+									<p>
+										<span>The proposed topics for mini-lectures should be different from topics already discussed in class. Each topic should be appropriate for a 20-minute presentation. You can prepare a presentation based on materials from two textbooks, but you are also allowed to use conference tutorial slides, articles, etc. The following are possible topics to consider. You can also propose different topics relevant to Knowledge Discovery and Data Mining:</span>
+										<ul>
+											<li>Large-scale hierarchical classification</li>
+											<li>Advanced concepts in cluster analysis</li>
+											<li>Association rules mining</li>
+											<li>Advanced concepts in association analysis</li>
+											<li>Anomaly detection</li>
+											<li>Data stream mining</li>
+											<li>Text and web mining</li>
+											<li>Time series mining</li>
+											<li>Mining big time series</li>
+											<li>Sequence pattern mining</li>
+											<li>Survival analysis</li>
+											<li>Mining spatial data</li>
+											<li>Mining graphs</li>
+											<li>Graphs sketching, sampling, streaming</li>
+											<li>Mining web data</li>
+											<li>Mining social networks</li>
+											<li>Privacy-preserving data mining</li>
+											<li>Mining spatio-temporal data</li>
+											<li>Mining semi-structured data</li>
+											<li>Mining with constraints</li>
+											<li>False discoveries</li>
+											<li>Lifelong machine learning</li>
+											<li>Deep Bayesian mining</li>
+											<li>Data mining for drug discovery</li>
+											<li>Mining electronic health records</li>
+											<li>Data mining in transportation</li>
+											<li>Data mining in power systems</li>
+											<li>Sports analytics</li>
+											<li>Explainable data modeling</li>
+											<li>Active learning</li>
+											<li>Human-in-the-loop learning</li>
+											<li>Visual analytics</li>
+											<li>Fairness-aware machine learning</li>
+											<li>Transfer learning</li>
+											<li>Fake news detection</li>
+											<li>Zero-shoot and few-shot learning</li>
+											<li>Mining temporal networks</li>
+											<li>Reinforcement learning</li>
+											<li>Graph neural networks</li>
+											<li>Deep reinforcement learning</li>
+											<li>Deep learning for personalized search and recommender systems</li>
+											<li>A/B testing at scale</li>
+											<li>Parallel and distributed data science (cloud, map-reduce, federated learning)</li>
+										</ul>
+									</p>
+									
+								</div>
+							</div>
+<!--END OF HOMEWORK 6-->
+<!--Homework 7-->
+							<div class="tab-pane fade" id="homework_7" role="tabpanel" aria-labelledby="hw7">
+								<div class="text-left mx-2 my-3">
+									<div class="section">
+										<center><h4 class="section-title"><b>Assignment 7</b></h4></center>
+										<span><b>Out: February 29</b></span><br>
+										<span><b>Due: March 14 by 5:00pm on Canvas</b></span><br>
+										<span>*Please write your name and TUID at the top of your <b>CANVAS</b> submission.</span><br>
+										<span>Number of problems/points: Four problems for a total of 100 points.</span>
+									</div>
+									<p>
+										<h6><b><u>Problem 1:</u> (15 points)</b></h6>
+										<ol type="a">
+											<li>Illustrate on an example the vanishing gradient problem for a deep neural network (with many hidden layers) if using a sigmoid activation function.</li>
+											<li>What is a way to overcome this problem (explain how)?</li>
+										</ol>
+									</p>
+									
+									<p>
+										<h6><b><u>Problem 2:</u> (15 points)</b></h6>
+										<span>
+											The leader algorithm represents each cluster using a point, known as a leader, 
+											and assigns each point to the cluster corresponding to the closest leader unless 
+											this distance is above a user-specified threshold. In that case, the point becomes 
+											the leader of a new cluster.
+										</span>
+										<ol type="a">
+											<li>What are the advantages and disadvantages of the leader algorithm as compared to K-means?</li>
+											<li>Suggest ways in which the leader algorithm might be improved.</li>
+										</ol>
+									</p>
+									
+									<p>
+										<h6><b><u>Problem 3:</u> (15 points)</b></h6>
+										<span>
+											Traditional agglomerative hierarchical clustering routines merge two clusters at each step.
+										</span>
+										<ol type="a">
+											<li>Does it seem likely that such an approach accurately captures the (nested) cluster structure of a set of data points?</li>
+											<li>If not, explain how you might post-process the data to obtain a more accurate view of the cluster structure.</li>
+										</ol>
+									</p>
+									
+									<p>
+										<h6><b><u>Problem 4:</u> (55 points)</b></h6>
+										<span>
+											Download and install CLUTO software for clustering high-dimensional data 
+											(<a href="http://glaros.dtc.umn.edu/gkhome/cluto/cluto/overview" target="_blank">http://glaros.dtc.umn.edu/gkhome/cluto/cluto/overview</a>).
+											Apply this software to cluster the Enron Emails dataset available at 
+											<a href="https://archive.ics.uci.edu/ml/datasets/Bag+of+Words" target="_blank">https://archive.ics.uci.edu/ml/datasets/Bag+of+Words</a>
+										</span>
+										<ol type="a">
+											<br><li>Report clustering results when using partitional clustering in the CLUTO package. You are allowed to apply CLUTO on a sample if the data is too large for your computer. In such a case report sample size you use and how consistent the result is if you repeat experiments 3 times on 3 samples of that size.</li>
+											<br><li>Report results when using agglomerative clustering algorithms in the CLUTO package. In agglomerative clustering compare the results of when using complete-link vs. single-link merging schemes. Then, for single-link merging compare the results when using cosine versus Euclidean distance function.</li>
+										</ol>
+									</p>
+								</div>
+							</div>
+<!--END OF HOMEWORK 7-->
+<!--Homework 8-->
+							<div class="tab-pane fade show active" id="homework_8" role="tabpanel" aria-labelledby="hw8">
+								<div class="text-left mx-2 my-3">
+									<div class="section">
+										<center><h4 class="section-title"><b>Assignment 8</b></h4></center>
+										<span><b>Out: March 14</b></span><br>
+										<span><b>Due: MONDAY March 25 by 5:00pm on Canvas</b></span><br>
+										<span>*Please write your name and TUID at the top of your <b>CANVAS</b> submission.</span><br>
+										<span>Number of problems/points: One problem for a total of 50 points</span>
+									</div>
+									<p>
+										<h6><b><u>Problem 1:</u> (50 points)</b></h6>
+										<p>Write a research proposal for the class project that you plan to perform, present progress on April 18 and 25, and submit the project report by May 2.</p>
+										<p>Teams of two undergraduate students are allowed and teams of one undergraduate and one graduate student. Teams of two graduate students are not allowed.</p>
+										<p>
+											<span>Write the proposal using the following format:</span><br>
+											<span>(0) Your name(s) and e-mail address (such that the instructor can approve your topic quickly or to ask for a revision/clarification)</span><br>
+											<span>(1) Title;</span><br>
+											<span>(2) Objective and Significance;</span><br>
+											<span>(3) Background;</span><br>
+											<span>(4) Proposed Approach (make sure to explain where you will get data and how much preprocessing is needed);</span><br>
+											<span>(5) References.</span><br>
+											<span>The proposal description may not exceed 2 pages in 12 pt style.</span>
+										</p>
+
+										<p>
+											Following are some of the research project topics investigated by Temple KDDM students in previous years:
+											<ol>
+												<li>Early prediction of spatio-temporal events</li>
+												<li>Applications of Graph Neural Networks for modeling partially observed data</li>
+												<li>Classifying sports events based on spatio-temporal data of players and ball using unreliable labels</li>
+												<li>Predictive modeling to forecast store sales</li>
+												<li>Emotion analysis based on text mining</li>
+												<li>Clustering NYC 311 requests</li>
+												<li>MP3 to MIDI conversion via deep learning</li>
+												<li>Co-Localization of multiple objects in images using activation map</li>
+												<li>Generalized procedure for selecting methylation CpGs associated with cancer</li>
+												<li>Classification of vaccine-related tweets using deep learning</li>
+												<li>Automatically building book indices</li>
+												<li>Time-series and clustering analysis for systemic lupus erythematosus patients’ study</li>
+												<li>Identifying complexity of Wikipedia text</li>
+												<li>Graphlet-assisted structured regression</li>
+												<li>Wire bonding: Predicting failures for the Ultrasonic Transducer</li>
+												<li>Exploring bias and variance in supervised learning algorithms</li>
+												<li>Clustering of gene expression cancer RNA-Seq Data Set</li>
+												<li>Analysis of online product review</li>
+												<li>Class imbalance: Credit card fraud analysis</li>
+												<li>Physician social network and patient outcomes: An empirical investigation</li>
+												<li>Exploring underlying structures of tweets with URLs via clustering</li>
+												<li>Dynamic changes of structure of large-scale evolving temporal graphs</li>
+												<li>Temporal predictive modeling with sample/feature size constraints</li>
+												<li>Opportunistic routing assisted by decision trees in CRNs</li>
+												<li>Uncertainty estimation of structured models on evolving graphs</li> 
+												<li>Structured output prediction with spatio-temporal data</li>                     
+												<li>Using nonlinear gated-experts for traffic speed forecasting</li>     
+												<li>New clustering schemes to improve the analysis of antibody CDR structure</li>                  
+												<li>Missing data, latent variables and PCA</li>
+												<li>Text mining of evaluations of commercial banks</li>                  
+												<li>Health care data mining</li>
+												<li>Short text data mining and analysis</li>           
+												<li>Label propagation for multi-label prediction</li>
+												<li>Ready for human-machine cooperation in hierarchical clustering?</li>
+												<li>Decentralized estimation using learning vector quantization</li>
+												<li>Batch mode active learning for classification and regression</li>
+												<li>Inverse active learning modeling in simulated AOD prediction</li>
+												<li>Pollution prediction using pre-clustering on informative features</li> 
+												<li>Uncertainty estimation for predicted aerosol optical depth</li>
+												<li>Feature selection for microarray classification</li>
+												<li>Analysis of gene functional expression profiles using GO semantic similarity</li>
+												<li>Disease data mining survival prediction based on gene expression data</li>
+												<li>Using movement data to detect significant regions of infection</li>
+												<li>Shape matching improvement</li>
+												<li>Relationships between environmental aspects of police officer’s work, family life and stress</li>
+												<li>Classification of Basketball Strategies using Spatio-Temporal Data</li>
+												<li>Sentiment Analysis on Social Media about Covid Vaccines to Analyze Public Reaction</li>
+												<li>Spotify Playlist Recommender System</li>
+												<li>Spotify Playlist Recommender System</li>
+												<li>Fake News Detection and Analysis</li>
+												<li>Data Mining and Analysis on Tweets Related to Current Events in the Russo-Ukrainian War</li>
+												<li>A Comparison of Bagging and Boosting for Regression and Classification Tasks</li>
+												<li>A Formal Framework for Credit Card Fraud Analysis</li>
+												<li>Cancer pathology stage prediction from gene expression quantification data</li>
+												<li>The Crowd vs. The Expert; Comparing Ensembles for Eigenface Emotion Classification</li>
+												<li>Does a Clutch Factor Exist in Basketball?</li>
+												<li>Forecasting store sales</li>
+												<li>Forecasting store sales</li>
+												<li>Classification of Salary by Occupation, Gender, and Other Metrics</li>
+												<li>Exploring bias and variance of models on animal faces classification</li>
+												<li>Comparison of Recent Conditional Generative Adversarial Networks Models for Image Translation</li>
+												<li>Twitter bot detection and classification with sentiment analysis</li>
+												<li>Mineral Classification from Spectral Data</li>
+												<li>Comparative Analysis of Missing Data Imputation Techniques for MCAR Data</li>
+												<li>Predicting Philadelphia Voter Turnout with a Random Forest Model</li>
+												<li>Topic Clustering of Autism Subreddit Data</li>
+												<li>Location-Based Species Presence Prediction</li>
+												<li>Cancer Pathological Stage Prediction using MRNA Gene Expression Data</li>
+												<li>False Discoveries</li>
+												<li>Comparing Unsupervised Visual Representation Techniques on Hotel Room Images</li>
+												<li>How do weather conditions affect users’ engagement in social media?</li>
+												<li>Comparing Image Classifying Methods</li>
+												<li>A Comparison of Various Forecasting Models in Predicting Rainfall from Spatio-Temporal Data</li>
+												<li>Reddit-based graph generation</li>
+												<li>Sentiment analysis in Text mining</li>
+												<li>A Machine Learning Framework to Identify Early Alzheimer's Disease</li>
+												<li>Clustering and Regression of Philadelphia Bike Share Data</li>
+											</ol>
+										</p>
+										
+										<p>
+											Following are some research project topic ideas suggested by authors of the KDDM textbook:
+											<ol>
+												<li>Evaluating Performance of Classifiers
+	<ul>
+		<li>Compare the bias and variance of models generated using different evaluation methods (leave one
+out, cross validation, bootstrap, stratification, etc.)</li>
+		<li>References</li>
+		<ol type="a">
+			<li>Kohavi, R., <a href="http://citeseer.ist.psu.edu/kohavi95study.html">A Study of
+			Cross-Validation and Bootstrap for Accuracy Estimation and Model Selection</a>
+			(1995)</li>
+			<li>Efron, B. and Tibshirani, R., <a href="http://citeseer.ist.psu.edu/47726.html">Cross-Validation and the
+			Bootstrap: Estimating the Error Rate of a Prediction Rule</a> (1995)</li>
+			<li>Martin, J.K., and Hirschberg, D.S., <a
+			href="http://citeseer.ist.psu.edu/martin96small.html">Small Sample Statistics
+			for Classification Error Rates I: Error Rate Measurements</a> (1996)</li>
+			<li>Dietterich, T.G., <a href="http://citeseer.ist.psu.edu/dietterich98approximate.html">Approximate
+			Statistical Tests for Comparing Supervised Classification Learning Algorithms</a>
+			(1998)</li>
+		</ol>
+	</ul>
+</li>
+
+<li>Support Vector Machine (SVM)
+	<ul>
+		<li>Present an overview of SVM or applying Support Vector Machines to various application domains.</li>
+		<li>References</li>
+		<ol type="a">
+			<li>Mangasarian, O.L., <a href="http://citeseer.ist.psu.edu/513524.html">Data Mining via Support Vector Machines</a> (2001)</li>
+			<li>Burges, C.J.C., <a href="http://citeseer.ist.psu.edu/burges98tutorial.html">A Tutorial on Support Vector Machines for Pattern Recognition</a> (1998)</li>
+			<li>Joachims, T., <a href="http://citeseer.ist.psu.edu/joachims98text.html">Text Categorization with Support Vector Machines: Learning with Many Relevant Features</a> (1998)</li>
+			<li>Salomon, J., <a href="http://citeseer.ist.psu.edu/salomon01support.html">Support Vector Machines for Phoneme Classification</a> (2001)</li>
+		</ol>
+	</ul>
+</li>
+
+<li>Cost-sensitive learning
+	<ul>
+		<li>A comparative study and implementation of different techniques for ensemble learning such as bagging, boosting, etc.</li>
+		<li>References</li>
+		<ol type="a">
+			<li>Freund Y. and Schapire, R.E., <a href="http://citeseer.csail.mit.edu/freund99short.html">A short introduction to boosting</a> (1999)</li>
+			<li>Joshi, M.V., Kumar, V., Agrawal, R., <a href="http://www-users.cs.umn.edu/~kumar/papers/kdd-MaheshJoshi.ps">Predicting Rare Classes: Can Boosting Make Any Weak Learner Strong?</a> (2002)</li>
+			<li>Quinlan, J.R., <a href="http://www.rulequest.com/Personal/q.aaai96.ps">Boosting, Bagging and C4.5</a> (1996)</li>
+			<li>Bauer, E., Kohavi, R., <a href="http://citeseer.ist.psu.edu/bauer99empirical.html">An Empirical Comparison of Voting Classification Algorithms: Bagging, Boosting, and Variants</a> (1999)</li>
+		</ol>
+	</ul>
+</li>
+
+<li>Semi-supervised learning (classification with labeled and unlabeled data)
+	<ul>
+		<li>Applying different semi-supervised learning techniques to UCI data sets.</li>
+		<li>References</li>
+		<ol type="a">
+			<li>Nigam, K., <a href="http://citeseer.ist.psu.edu/nigam01using.html">Using Unlabeled Data to Improve Text Classification</a> (2001)</li>
+			<li>Seeger, M., <a href="http://citeseer.ist.psu.edu/seeger01learning.html">Learning with labeled and unlabeled data</a> (2001)</li>
+			<li>Nigam, K. and Ghani, R., <a href="http://citeseer.ist.psu.edu/nigam00analyzing.html">Analyzing the Effectiveness and Applicability of Co-training</a> (2000)</li>
+			<li>Vittaut, J.N., Amini, M-R., Gallinari, P., <a href="http://www.springerlink.com/app/home/contribution.asp?wasp=9724eed3f7e7436fac47346d91fc23f6&amp;referrer=parent&amp;backto=issue,39,45;journal,1115,2099;linkingpublicationresults,1:105633,1">Learning Classification with Both Labeled and Unlabeled Data</a> (2002).</li>
+		</ol>
+	</ul>
+</li>
+
+<li>Classification for rare-class problems
+	<ul>
+		<li>A comparative study and/or implementation of different classification techniques to analyze rare class problems</li>
+		<li>References</li>
+		<ol type="a">
+			<li>Joshi, M.V., and Agrawal, R., <a href="http://citeseer.ist.psu.edu/agarwal00pnrule.html">PNrule: A New Framework for Learning Classifier Models in Data Mining (A Case-study in Network Intrusion Detection)</a>(2001)</li>
+			<li>Joshi, M.V., Agrawal, R., and Kumar, V., <a href="http://www-users.cs.umn.edu/~mjoshi/papers/sigmod01-rare.ps.zip">Mining Needles in a Haystack: Classifying Rare Classes via Two-Phase Rule Induction</a> (2001)</li>
+			<li>Joshi, M.V., Kumar, V., Agrawal, R., <a href="http://www-users.cs.umn.edu/~kumar/papers/kdd-MaheshJoshi.ps">Predicting Rare Classes: Can Boosting Make Any Weak Learner Strong?</a> (2002)</li>
+			<li>Joshi, M.V., Kumar, V., Agrawal, R., <a href="http://www-users.cs.umn.edu/~mjoshi/papers/icdm02sub.ps.zip">On Evaluating Performance of Classifiers for Rare Classes (2002)</a> (2002)</li>
+		</ol>
+	</ul>
+</li>
+
+<li>Time Series Prediction/Classification
+	<ul>
+		<li>A comparative study and/or implementation of time series prediction/classification techniques</li>
+		<li>References</li>
+		<ol type="a">
+			<li>Geurts, P., <a href="http://link.springer.de/link/service/series/0558/bibs/2168/21680115.htm">Pattern Extraction for Time Series Classification</a> (2001)</li>
+			<li>Kadous, M.W., <a href="http://www.cse.unsw.edu.au/~waleed/phd/tr9806/tr.html">A General Architecture for Supervised Classification of Multivariate Time Series</a> (1998)</li>
+			<li>Giles, C.L., Lawrence, S. and Tsoi, A.C., <a href="http://citeseer.ist.psu.edu/giles01noisy.html">Noisy Time Series Prediction using a Recurrent Neural Network and Grammatical Inference</a> (2001)</li>
+			<li>Keogh, E.J. and Pazzani, M.J., <a href="http://citeseer.ist.psu.edu/keogh98enhanced.html">An enhanced representation of time series which allows fast and accurate classification, clustering</span> and relevance feedback</a> (1998)</li>
+			<li>Chatfield, C., The Analysis of Time Series, Chapman &amp; Hall (1989)</li>
+		</ol>
+	</ul>
+</li>
+
+<li>Sequence Prediction
+	<ul>
+		<li>A comparative study and implementation of sequence prediction techniques</li>
+		<li>References</li>
+		<ol type="a">
+			<li>Laird, P.D., Saul, R. Discrete Sequence Prediction and Its Applications. Machine Learning, 15(1): 43-68 (1994)</li>
+			<li>Sun, R. and Lee Giles, C., <a href="http://www.cecs.missouri.edu/~rsun/sun.expert01.pdf">Sequence Learning: From Recognition and Prediction to Sequential Decision Making</a> (2001)</li>
+			<li>Lesh, N., Zaki, M.J., and Ogihara, M., <a href="http://www.cs.rpi.edu/~zaki/PS/KDD99.ps.gz">Mining features for Sequence Classification</a> (1999)</li>
+		</ol>
+	</ul>
+</li>
+
+<li>Association Rules for Classification
+	<ul>
+		<li>A comparative study and implementation of classification using association patterns (rules and itemsets</li>
+		<li>References</li>
+		<ol type="a">
+			<li>Liu, B., Hsu, W., and Ma, Y., <a href="http://citeseer.ist.psu.edu/liu98integrating.html">Integrating Classification and Association Rule Mining</a> (1998)</li>
+			<li>Liu, B., Ma, Y. and Wong, C-K, <a href="http://citeseer.ist.psu.edu/624244.html">Classification Using Association Rules: Weaknesses and Enhancements</a> (2001)</li>
+			<li>Li, W., Han, J. and Pei, J., <a href="http://citeseer.ist.psu.edu/li01cmar.html">CMAR: Accurate and Efficient Classification Based on Multiple Class-Association</a> (2001)</li>
+			<li>Deshpande, M. and Karypis, G., <a href="http://citeseer.ist.psu.edu/508140.html">Using Conjunction of Attribute Values for Classification</a>(2002)</li>
+		</ol>
+	</ul>
+</li>
+
+<li>Spatial Association Rule Mining
+	<ul>
+		<li>A comparative study on spatial association rule mining.</li>
+		<li>References</li>
+		<ol type="a">
+			<li>Koperski, K., and Han, J., <a href="http://citeseer.ist.psu.edu/koperski95discovery.html">Discovery of Spatial Association Rules in Geographic Information Databases</a> (1995)</li>
+			<li>Shekhar, S. and Huang, Y.,<a href="http://citeseer.ist.psu.edu/shekhar01discovering.html"> Discovering Spatial Co-location Patterns: A Summary of Results</a> (2001)</li>
+			<li>Malerba, D., Esposito, F. and Lisi, F., <a href="http://citeseer.ist.psu.edu/487459.html">Mining Spatial Association Rules in Census Data</a> (2001)</li>
+		</ol>
+	</ul>
+</li>
+
+<li>Temporal Association Rule Mining
+	<ul>
+		<li>A comparative study and/or implementation of temporal association rule mining techniques</li>
+		<li>References</li>
+		<ol type="a">
+			<li>Li, Y., Ning, P., Wang, and S., Jajodia, S., <a href="http://citeseer.ist.psu.edu/li01discovering.html">Discovering Calendar-based Temporal Association Rules</a> (2001)</li>
+			<li>Chen, X. and Petrounias, Mining temporal features in association rules</li>
+			<li>Lee, C.H., Lin, C.R. and Chen, M.S., <a href="http://arbor.ee.ntu.edu.tw/~mschen/paperps/0901icdm01.pdf">On Mining General Temporal Association Rules in a Publication Database</a> (2001)</li>
+			<li>Ozden, B., Ramaswamy, Silberschatz, <a href="http://citeseer.ist.psu.edu/ozden98cyclic.html">Cyclic Association Rules</a> (1998)</li>
+			<li>Literature on Sequential Association Rule Mining below</li>
+		</ol>
+	</ul>
+</li>
+
+<li>Sequential Association Rule Mining
+	<ul>
+		<li>A comparative study and/or implementation of sequential association rule mining techniques</li>
+		<li>References</li>
+		<ol type="a">
+			<li>Srikant, R. and Agrawal, R., <a href="http://citeseer.ist.psu.edu/189.html">Mining Sequential Patterns: Generalizations and Performance Improvements</a> (1996)</li>
+			<li>Mannila, H. and Toivonen, H., Verkamo, A.I., <a href="http://citeseer.ist.psu.edu/mannila97discovery.html">Discovery of Frequent Episodes in Event Sequences</a> (1997)</li>
+			<li>Joshi, M., Karypis, G., and Kumar, V., <a href="http://citeseer.ist.psu.edu/198636.html">A Universal Formulation of Sequential Patterns</a> (1999)</li>
+			<li>Borges J., and Levene, M., <a href="http://paginas.fe.up.pt/~jlborges/publications/arhtKDD98.ps">Mining Association Rules in Hypertext Databases</a> (1998)</li>
+		</ol>
+	</ul>
+</li>
+
+<li>Outlier Detection
+	<ul>
+		<li>A comparative study and/or implementation of outlier detection techniques.</li>
+		<li>References</li>
+		<ol type="a">
+			<li>Knorr, Ng, <a href="http://citeseer.ist.psu.edu/knorr97unified.html">A Unified Notion of Outliers: Properties and Computation</a>, - 1997</li>
+			<li>Knorr, Ng, <a href="http://citeseer.ist.psu.edu/knorr98algorithm.html">Algorithms for Mining Distance-Based Outliers in Large Datasets</a> - 1998</li>
+			<li>Breunig, Kriegel, Ng, Sander, <a href="http://citeseer.ist.psu.edu/breunig00lof.html">LOF: Identifying Density-Based Local Outliers</a> 2000</li>
+			<li>Aggarwal, Yu, <a href="http://citeseer.ist.psu.edu/aggarwal01outlier.html">Outlier Detection for High Dimensional Data</a> – 2001</li>
+			<li>Tang, Chen, Fu, Cheung, <a href="http://citeseer.ist.psu.edu/tang01robust.html">A Robust Outlier Detection Scheme for Large Data Sets</a> – 2001</li>
+		</ol>
+	</ul>
+</li>
+
+<li>Parallel Formulations of Clustering
+	<ul>
+		<li>Study and possible implementation of parallel formulations of clustering techniques.</li>
+		<li>References</li>
+		<ol type="a">
+			<li>Olson, <a href="http://citeseer.ist.psu.edu/17291.html">Parallel Algorithms for Hierarchical Clustering</a> – 1993</li>
+			<li>Nagesh, <a href="http://citeseer.ist.psu.edu/nagesh99high.html">High Performance Subspace Clustering for Massive Data Sets</a> - 1999</li>
+			<li>Skillicorn, <a href="http://citeseer.ist.psu.edu/skillicorn99strategies.html">Strategies for Parallel Data Mining</a>, 1999</li>
+			<li>Dhillon, Modha, <a href="http://citeseer.ist.psu.edu/dhillon00dataclustering.html">A Data-Clustering Algorithm On Distributed Memory Multiprocessors</a> - 2000</li>
+		</ol>
+	</ul>
+</li>
+
+<li>Clustering of Time Series
+	<ul>
+		<li>Study and possible implementation of time series clustering techniques on actual NASA time series data.</li>
+		<li>References</li>
+		<ol type="a">
+			<li>Clustering Time Series with Hidden Markov Models and Dynamic Time Warping</a> - 1999</li>
+			<li>Konstantinos Kalpakis, Dhiral Gada, and Vasundhara Puttagunta, <a href="http://www.csee.umbc.edu/~kalpakis/homepage/papers/ICDM01.pdf">Distance Measures for Effective Clustering of ARIMA Time Series</a></li>
+			<li>Tim, <a href="http://citeseer.ist.psu.edu/74893.html">Identifying Distinctive Subsequences in Multivariate Time Series by Clustering</a> – 1999</li>
+		</ol>
+	</ul>
+</li>
+
+<li>Scalable clustering algorithms
+	<ul>
+		<li>A comparative study of scalable data mining techniques.</li>
+		<li>References</li>
+		<ol type="a">
+			<li>Tian Zhang, <a href="http://citeseer.ist.psu.edu/zhang99birch.html">BIRCH: An Efficient Data Clustering Method for Very Large Databases -</a>. 1999</li>
+			<li>Ganti, Ramakrishnan, <a href="http://citeseer.ist.psu.edu/ganti98clustering.html">Clustering Large Datasets in Arbitrary Metric Spaces</a>, 1998</li>
+			<li>Bradley, Fayyad, Reina <a href="http://citeseer.ist.psu.edu/bradley98scaling.html">Scaling Clustering Algorithms to Large Databases</a> –1998</li>
+			<li>Farnstrom, Lewis, Elkan, <a href="http://citeseer.ist.psu.edu/farnstrom00scalability.html">Scalability for Clustering Algorithms Revisited - 2000</a></li>
+		</ol>
+	</ul>
+</li>
+
+<li>Clustering association rules and frequent item sets
+	<ul>
+		<li>A comparative study of techniques for clustering association rules.</li>
+		<li>References</li>
+		<ol type="a">
+			<li>Toivonen, Klemettinen, <a href="http://citeseer.ist.psu.edu/toivonen95pruning.html">Pruning and Grouping Discovered Association Rules</a>, 1995</li>
+			<li>Widom, <a href="http://citeseer.ist.psu.edu/lent97clustering.html">Clustering Association Rules - Lent, Swami</a> - 1997</li>
+			<li>Gunjan K. Gupta, Alexander Strehl AND Joydeep Ghosh, <a href="http://www.lans.ece.utexas.edu/~strehl/download/gupta-annie99.pdf">Distance Based Clustering of Association Rules</a></li>
+		</ol>
+	</ul>
+</li>
+
+
+											</ol>
+										</p>
+										
+									</p>
+								</div>
+							</div>
+<!--END OF HOMEWORK 8-->
+						</div>							
+					</div>
+				</div>		
+			</div>	
+		</div>
+<!--		
+		<div class="footer bg-footer">
+			<div class="text-center">Copyright &copy; 2024, Temple University. All rights reserved.</div>
+		</div>
+-->
+	</body>
+</html>

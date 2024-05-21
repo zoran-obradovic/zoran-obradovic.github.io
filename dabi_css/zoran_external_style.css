@@ -497,6 +497,12 @@ a:hover {
 	padding: 0.75rem 0.0rem;
 }
 
+.h_arrow {
+  color: #a41e35;
+  font-weight: bold;
+  font-size: 30px;
+}
+
 input:checked + .switch-slider {
 	background: #009688;
 }
